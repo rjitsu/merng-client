@@ -39,7 +39,7 @@ function PostForm() {
             value={values.body}
             error={error ? true : false}
           />
-          <Button type="submit" color="teal">
+          <Button  animated type="submit" color="teal">
             <Button.Content visible>
             Submit
             </Button.Content>
