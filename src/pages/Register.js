@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Button, Form } from 'semantic-ui-react';
+import { Button, Form, Icon } from 'semantic-ui-react';
 import { useMutation } from '@apollo/react-hooks';
 import gql from 'graphql-tag';
 
@@ -77,8 +77,13 @@ function Register(props) {
           error={errors.confirmPassword ? true : false}
           onChange={onChange}
         />
-        <Button type="submit" primary>
+        <Button animated type="submit" primary>
+          <Button.Content visible>
           Register
+          </Button.Content>
+        <Button.Content hidden>
+        <Icon name='arrow right' />
+      </Button.Content>
         </Button>
       </Form>
       {Object.keys(errors).length > 0 && (

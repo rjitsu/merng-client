@@ -40,7 +40,12 @@ function PostForm() {
             error={error ? true : false}
           />
           <Button type="submit" color="teal">
+            <Button.Content visible>
             Submit
+            </Button.Content>
+            <Button.Content hidden>
+            <Icon name='arrow right' />
+            </Button.Content>          
           </Button>
         </Form.Field>
       </Form>
