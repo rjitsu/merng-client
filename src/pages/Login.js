@@ -57,8 +57,11 @@ function Login(props) {
           error={errors.password ? true : false}
           onChange={onChange}
         />
-        <Button type="submit" primary>
-          Login
+        <Button animated type="submit" primary>
+          <Button.Content visible>Login</Button.Content>
+          <Button.Content hidden>
+        <Icon name='arrow right' />
+      </Button.Content>
         </Button>
       </Form>
       {Object.keys(errors).length > 0 && (
