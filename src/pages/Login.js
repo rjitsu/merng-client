@@ -41,6 +41,7 @@ function Login(props) {
         <h1>Login</h1>
         <Form.Input
           label="Username"
+          icon={{ name: 'user', link: true }}
           placeholder="Username.."
           name="username"
           type="text"
@@ -52,6 +53,7 @@ function Login(props) {
           label="Password"
           placeholder="Password.."
           name="password"
+          icon={{ name: 'lock', link: true }}
           type="password"
           value={values.password}
           error={errors.password ? true : false}

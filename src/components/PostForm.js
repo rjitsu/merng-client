@@ -34,6 +34,7 @@ function PostForm() {
         <Form.Field>
           <Form.Input
             placeholder="Type here"
+            icon={{ name: 'send', link: true }}
             name="body"
             onChange={onChange}
             value={values.body}

@@ -43,7 +43,7 @@ function Register(props) {
         <h1>Register</h1>
         <Form.Input
           label="Username"
-          icon={{ name: 'user', circular: true, link: true }}
+          icon={{ name: 'user', link: true }}
           placeholder="Username.."
           labelPosition="left"
           name="username"
@@ -54,6 +54,7 @@ function Register(props) {
         />
         <Form.Input
           label="Email"
+          icon={{ name: 'at', link: true }}
           placeholder="Email.."
           name="email"
           type="email"
@@ -63,6 +64,7 @@ function Register(props) {
         />
         <Form.Input
           label="Password"
+          icon={{ name: 'lock', link: true }}
           placeholder="Password.."
           name="password"
           type="password"
@@ -72,6 +74,7 @@ function Register(props) {
         />
         <Form.Input
           label="Confirm Password"
+          icon={{ name: 'lock', link: true }}
           placeholder="Confirm Password.."
           name="confirmPassword"
           type="password"
