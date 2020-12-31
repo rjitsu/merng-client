@@ -43,8 +43,9 @@ function Register(props) {
         <h1>Register</h1>
         <Form.Input
           label="Username"
-          icon={{ name: 'user', labelPosition:"left", circular: true, link: true }}
+          icon={{ name: 'user', circular: true, link: true }}
           placeholder="Username.."
+          labelPosition="left"
           name="username"
           type="text"
           value={values.username}
