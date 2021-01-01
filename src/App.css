@@ -16,11 +16,3 @@
   background-color: #00b5ad;
 }
 
-#root{
-  display: grid;
-  place-items: center;
-}
-
-div.ui.container{
-  max-width: 70% !important;
-}
