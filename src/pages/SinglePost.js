@@ -117,11 +117,12 @@ function SinglePost(props) {
                       />
                       <button
                         type="submit"
-                        className="ui button teal"
+                        className="ui button teal animated"
                         disabled={comment.trim() === ''}
                         onClick={submitComment}
                       >
-                        Submit
+                        <div className="visible content">Submit</div>
+                        <div className="hidden content"><i className="send link icon"></i></div>
                       </button>
                     </div>
                   </Form>
