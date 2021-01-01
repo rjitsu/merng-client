@@ -17,7 +17,7 @@ function Home() {
   return (
     <Grid centered columns={1}>
       <Grid.Row className="page-title">
-        <h1>☄️ Qlapp, a social media platform</h1>
+        <h1><span role="img" aria-label="comet emoji">☄️</span> Qlapp, a social media platform</h1>
         <h1>Recent Posts</h1>
       </Grid.Row>
       <Grid.Row>
