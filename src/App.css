@@ -15,3 +15,12 @@
 .ui.teal.buttons .button:focus {
   background-color: #00b5ad;
 }
+
+#root{
+  display: grid;
+  place-items: center;
+}
+
+.container{
+  max-width: 70% !important;
+}
