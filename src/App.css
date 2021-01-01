@@ -21,6 +21,6 @@
   place-items: center;
 }
 
-.container{
+div.ui.container{
   max-width: 70% !important;
 }
